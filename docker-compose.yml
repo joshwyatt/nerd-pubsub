@@ -1,0 +1,12 @@
+publisher:
+  build: publisher/
+  links:
+   - redis
+
+subscriber:
+  build: subscriber/
+  links:
+   - redis
+
+redis:
+  image: redis
